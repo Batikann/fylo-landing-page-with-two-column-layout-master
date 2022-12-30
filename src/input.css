@@ -1,0 +1,186 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components{
+    
+
+    .nav-middle{
+        @apply mx-12 max-[540px]:mx-4 max-[320px]:mx-2 
+    }
+
+    .nav-logo-img{
+        @apply w-[12%] max-[540px]:w-[25%]
+    }
+
+    .nav-ul{
+        @apply flex items-center cursor-pointer text-base max-[320px]:text-sm 
+    }
+
+    .nav-link{
+        @apply hover:underline hover:underline-offset-2 cursor-pointer
+    }
+
+    .cta{
+        @apply bg-white p-8 shadow-xl rounded-md max-w-md max-[540px]:mb-24
+    }
+
+    .cta-title{
+        @apply text-v_dark_b font-openSans font-normal leading-6 my-3
+    }
+
+    .cta-div{
+        @apply flex items-center
+    }
+
+    .cta-img{
+        @apply w-10 h-10 rounded-full mr-3
+    }
+
+    .cta-name{
+        @apply font-raleway font-bold text-v_dark_b
+    }
+
+    .cta-job{
+        @apply font-openSans text-xs font-normal
+    }
+
+    .curve-mobile{
+        @apply absolute -top-11 w-full md:hidden max-[280px]:-top-8
+    }
+
+    .curve-desktop{
+        @apply absolute w-full -top-14 left-0 lg:-top-20 max-[540px]:hidden 2xl:-top-28
+    }
+
+    
+    .section-1{
+        @apply flex items-center px-20 py-14 max-[912px]:p-10  max-[540px]:flex-col-reverse max-[540px]:p-5
+    }
+
+
+    .section-1-header{
+        @apply text-4xl font-raleway font-bold text-v_dark_b leading-normal max-[1024px]:text-2xl max-[540px]:text-center max-[540px]:mt-8 max-[280px]:text-xl
+    }
+
+    .section-1-text{
+        @apply text-lg font-openSans text-d_blue my-4
+    }
+
+    .section-1-form{
+        @apply grid grid-cols-3 gap-4 max-[540px]:grid-cols-1
+    }
+
+    .section-1-input{
+        @apply border border-solid border-d_blue p-2 col-span-2 text-black px-4 rounded-sm
+    }
+
+    .section-1-btn{
+        @apply bg-b_blue col-span-1 text-white font-raleway font-bold text-sm rounded-sm p-1 max-[540px]:col-span-2 max-[540px]:p-3 hover:opacity-60
+    }
+
+    .section-1-right-side{
+        @apply ml-4 flex justify-center max-[540px]:ml-0
+    }
+
+    .section-1-left-side{
+        @apply mr-8 max-[540px]:mr-0
+    }
+
+    .section-1-img{
+        @apply w-[100%] ml-8 max-[540px]:ml-0 2xl:w-[70%]
+    }
+
+
+    .section-2-text{
+        @apply font-openSans text-v_dark_b font-normal text-lg max-[540px]:text-base
+    }
+
+    .section-2-link{
+        @apply flex mt-4 mb-12 underline underline-offset-8 text-m_cyan items-center max-w-lg max-[540px]:justify-center max-[540px]:my-12 hover:opacity-60
+    }
+
+    .section-2-header{
+        @apply text-v_dark_b font-raleway text-4xl font-bold mb-8 max-[540px]:text-xl max-[540px]:text-center max-[540px]:mt-8
+    }
+
+    .section-2{
+        @apply bg-l_blue flex items-center p-20 max-[912px]:p-10 max-[540px]:flex-col-reverse max-[540px]:mt-48 relative mt-64 max-[540px]:p-5
+    }
+
+    .section-2-img{
+        @apply w-[100%] ml-8 2xl:w-[70%] max-[540px]:ml-0
+    }
+
+    .section-2-right-side{
+        @apply ml-4 flex justify-center max-[768px]:justify-end
+    }
+
+    .arrow{
+        @apply w-5 h-5 ml-2 mt-1
+    }
+
+
+    .section-3{
+        @apply bg-d_blue grid grid-cols-2 gap-8 p-20 text-white max-[912px]:p-10 max-[540px]:grid-cols-1
+    }
+
+    .section-3-header{
+        @apply font-raleway text-2xl font-bold mb-4 max-[540px]:text-center
+    }
+
+    .section-3-text{
+        @apply max-w-md font-openSans font-normal text-sm leading-6
+    }
+
+    .form{
+        @apply grid grid-cols-1 gap-4
+    }
+
+    .section-3-input{
+        @apply lg:w-[85%] w-[100%] px-4 text-black rounded-sm max-[540px]:p-3
+    }
+
+    .section-3-btn{
+        @apply bg-b_blue text-white font-raleway font-bold lg:w-[40%] w-[55%] text-sm shadow-2xl rounded-sm max-[540px]:w-[100%] max-[540px]:p-3 hover:bg-b_l_blue
+    }
+
+
+
+    .footer{
+        @apply bg-v_dark_b text-white font-openSans font-normal p-20 max-[912px]:p-10
+    }
+
+    .footer-grid{
+        @apply grid grid-cols-4 gap-4 max-[540px]:grid-cols-1 max-[540px]:gap-10
+    }
+
+    .social-link{
+        @apply border border-solid border-white flex justify-center p-2 rounded-full w-10 hover:border-b_blue
+    }
+
+    .social-ul{
+        @apply flex max-[540px]:justify-center
+    }
+
+    .footer-grid-2{
+      @apply grid grid-cols-1 gap-4
+    }
+
+    .footer-div{
+        @apply flex justify-center max-[540px]:justify-start
+    }
+
+    .footer-icon{
+        @apply mr-4 w-5 h-5
+    }
+
+    .footer-link{
+        @apply cursor-pointer hover:text-b_blue
+    }
+    
+
+   
+}
